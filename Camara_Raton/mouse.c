@@ -19,3 +19,4 @@ void moveMouse(int x, int y) {
     input.mi.dwFlags = MOUSEEVENTF_MOVE | MOUSEEVENTF_ABSOLUTE;
     SendInput(1, &input, sizeof(INPUT));
 }
+

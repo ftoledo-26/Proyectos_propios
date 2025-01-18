@@ -1,6 +1,6 @@
 # Control del Mouse con la Cámara
 
-Este proyecto en C utiliza OpenCV y la API de Windows para mover el cursor del mouse y simular clics mediante gestos capturados por la cámara web.
+Este proyecto en C utiliza OpenCV y la API de Windows para mover el cursor del mouse y simular clics mediante gestos capturados por la cámara web su objetivo a largo plazo es el aumentar la cantidada de funciones.
 
 ## Características
 
@@ -24,3 +24,5 @@ Este proyecto en C utiliza OpenCV y la API de Windows para mover el cursor del m
 2. **Compilar el programa:**  
    ```bash
    gcc -o mouse_control.exe mouse_control.c -lopencv_core -lopencv_highgui -lopencv_videoio -lgdi32
+
+

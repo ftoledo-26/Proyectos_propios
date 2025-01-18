@@ -8,3 +8,4 @@ void moveMouse(int x, int y);
 void clickMouse();
 
 #endif
+
