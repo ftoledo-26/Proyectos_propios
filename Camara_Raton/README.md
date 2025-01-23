@@ -22,7 +22,7 @@ Este proyecto en C utiliza OpenCV y la API de Windows para mover el cursor del m
    - Configurar las rutas de OpenCV en tu entorno de desarrollo.
 
 2. **Compilar el programa:**  
-   ```bash
-   gcc -o mouse_control.exe mouse_control.c -lopencv_core -lopencv_highgui -lopencv_videoio -lgdi32
+   pendiente hacer el makefile/.exe
+   
 
 
