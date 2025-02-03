@@ -7,7 +7,8 @@ import java.io.IOException;
 public class solution {
     
     public static boolean esSeguro(int[] niveles, int n) {
-        boolean creciente = true, decreciente = true;
+        boolean creciente = true; 
+        boolean decreciente = true;
 
         for (int i = 1; i < n; i++) {
             int diferencia = niveles[i] - niveles[i - 1];
@@ -28,15 +29,15 @@ public class solution {
 
     public static void main(String[] args) {
         String filePath = "datos.txt";
-        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
-            String[] dimensions = br.readLine().split(" ");
+        try (BufferedReader bufread = new BufferedReader(new FileReader(filePath))) {
+            String[] dimensions = bufread.readLine().split(" ");
             int filas = Integer.parseInt(dimensions[0]);
             int columnas = Integer.parseInt(dimensions[1]);
 
             int[][] tabla = new int[filas][columnas];
 
             for (int i = 0; i < filas; i++) {
-                String[] line = br.readLine().split(" ");
+                String[] line = bufread.readLine().split(" ");
                 for (int j = 0; j < columnas; j++) {
                     tabla[i][j] = Integer.parseInt(line[j]);
                 }
