@@ -1,0 +1,3 @@
+winget install paquete1
+winget install paquete2
+winget install paquete3
