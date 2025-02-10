@@ -29,7 +29,7 @@ Un informe es **seguro** si cumple con ambas condiciones:
 | `8 6 4 4 1`    | Contiene un nivel repetido (`4 -> 4` no es ni aumento ni disminución). | ❌ No     |
 | `1 3 6 7 9`    | Los niveles están aumentando por 1, 2 o 3.                             | ✅ Sí     |
 
-De lo anterior, **2 informes son seguros**.
+#### De lo anterior, **2 informes son seguros**.
 
 ---
 
