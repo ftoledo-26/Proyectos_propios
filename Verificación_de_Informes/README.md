@@ -8,7 +8,7 @@
 
 Los ingenieros te han dado **informes del reactor** para analizar. Cada informe consiste en una serie de números llamados "niveles," listados en una sola línea. Por ejemplo:
 
-El **objetivo** es determinar cuántos de estos informes son "seguros."
+> El **objetivo** es determinar cuántos de estos informes son "seguros."
 
 ---
 
