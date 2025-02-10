@@ -16,7 +16,7 @@ Los ingenieros te han dado **informes del reactor** para analizar. Cada informe 
 
 Un informe es **seguro** si cumple con ambas condiciones:
 1. **Tendencia Consistente**: Los niveles deben ser **todos crecientes** o **todos decrecientes**.
-2. **Diferencias Aceptables**: La diferencia entre dos niveles adyacentes debe ser al menos `1` y como máximo `3`.
+2. ***Diferencias Aceptables***: La diferencia entre dos niveles adyacentes debe ser al menos `1` y como máximo `3`.
 
 ### Análisis de Ejemplo
 
@@ -29,7 +29,7 @@ Un informe es **seguro** si cumple con ambas condiciones:
 | `8 6 4 4 1`    | Contiene un nivel repetido (`4 -> 4` no es ni aumento ni disminución). | ❌ No     |
 | `1 3 6 7 9`    | Los niveles están aumentando por 1, 2 o 3.                             | ✅ Sí     |
 
-#### De lo anterior, **2 informes son seguros**.
+#### De lo anterior, 2 informes son seguros.
 
 ---
 
@@ -38,9 +38,7 @@ Un informe es **seguro** si cumple con ambas condiciones:
 - La entrada es una serie de informes, uno por línea.
 - Cada informe contiene enteros separados por espacios.
 
+## ❓
+ *Este codigo es parte de un calendario de adviento de programacion.
+ * Para mas informacion, visita: https://adventofcode.com/
 
-
-/**
- * This code is part of a project inspired by the Advent of Code challenges.
- * For more information, visit: https://adventofcode.com/
- */
